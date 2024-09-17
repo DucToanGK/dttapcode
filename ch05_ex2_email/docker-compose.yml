@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  ch05ex2email:
+    image: ch05ex2email
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3000:3000
